@@ -1,6 +1,6 @@
 {
   "name": "vue-global-mfe",
-  "version": "1.1.7",
+  "version": "1.2.0",
   "type": "module",
   "main": "./dist/mfe-global-lib.umd.cjs",
   "module": "./dist/mfe-global-lib.js",

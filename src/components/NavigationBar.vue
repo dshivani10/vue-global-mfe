@@ -1,7 +1,7 @@
 <template>
     <div class="ecom-navbar">
-        <div v-for="item in navlist" :key="item">
-            <NavigationItem :item="item"/>
+        <div v-for="item in navlist" :key="item.slug">
+            <NavigationItem @click="navigate(item.slug)" :item="item.name"/>
         </div>
     </div>
 </template>
@@ -15,6 +15,11 @@ export default {
     },
     components: {
         NavigationItem
+    },
+    methods:{
+        navigate(slug){
+            this.$router.push(`/products/${slug}`)
+        }
     }
 }
 </script>
