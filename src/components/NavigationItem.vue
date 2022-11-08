@@ -15,7 +15,7 @@ export default {
 </script>
 <style scoped>
     .ecom-navtitle{
-        padding: 10px 20px;
+        padding: 10px 40px;
         border-bottom: 2px solid transparent;
         cursor: pointer;
     }
@@ -24,7 +24,8 @@ export default {
     }
     .nav-title{
         margin: 0;
-        font-size: 14px;
+        font-size: 15px;
         pointer-events: none;
+        font-weight: 500;
     }
 </style>
