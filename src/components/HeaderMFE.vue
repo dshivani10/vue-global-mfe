@@ -18,9 +18,6 @@ export default {
 }
 </script>
 <style scoped>
-.header-mfe{
-  background-color: #f5f5dc;
-}
 .header-title{
   font-size: 50px;
   font-family: monospace;
