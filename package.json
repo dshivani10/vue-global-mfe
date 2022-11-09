@@ -1,6 +1,6 @@
 {
   "name": "vue-global-mfe",
-  "version": "1.2.4",
+  "version": "1.2.6",
   "type": "module",
   "main": "./dist/mfe-global-lib.umd.cjs",
   "module": "./dist/mfe-global-lib.js",
@@ -21,7 +21,8 @@
   },
   "dependencies": {
     "path": "^0.12.7",
-    "vue": "^3.2.41"
+    "vue": "^3.2.41",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.2.0",

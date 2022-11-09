@@ -57,7 +57,7 @@ export default {
         justify-content: center;
     }
     .ecom-nav-menu{
-        position: fixed;
+        position: absolute;
         width: 100%;
         background-color: #f5f5dc;
     }
