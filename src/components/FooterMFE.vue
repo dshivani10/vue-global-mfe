@@ -1,6 +1,6 @@
 <template>
   <div class="footer-mfe">
-    <p class="footer-copyright">© 2022 Williams-Sonoma, Inc.</p>
+    <p class="footer-copyright">© 2022 Williams-Sonoma, Inc..</p>
   </div>
 </template>
 
